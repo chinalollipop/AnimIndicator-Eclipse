@@ -104,6 +104,7 @@ public class DefaultCircleIndicatorActivity extends FragmentActivity  implements
         mCustoemIndicatorLayout.setIndicatorPosition(InfiniteIndicatorLayout.IndicatorPosition.Center_Bottom);
         CircleIndicator circleIndicator = ((CircleIndicator)mCustoemIndicatorLayout.getPagerIndicator());
         final float density = getResources().getDisplayMetrics().density;
+        //设置圆点的相关属性
         circleIndicator.setBackgroundColor(0xFFCCCCCC);
         circleIndicator.setRadius(5 * density);
         circleIndicator.setPageColor(0x880000FF);
